@@ -21,5 +21,6 @@ module.exports = function(n) {
     }
     number += 2;
   }
+  console.log(primeArray[primeArray.length - 1]);
   return primeArray[primeArray.length - 1];
 };
